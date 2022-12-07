@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eec.creative</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+
+
+
+        function playVid(laquel) {
+
+            //https://stackoverflow.com/questions/73437333/how-to-stop-all-videos-when-a-new-video-is-played
+            document.querySelectorAll("video").forEach((lesVideos) => {
+                //console.log(lesVideos);
+                lesVideos.pause();
+            });
+
+
+            //console.log(laquel);
+            var vid = document.getElementById(laquel);
+            vid.play();
+        }
+
+
+    </script>
+
+
+</head>
+
+<header>
+
+    <p class="titre">ella fournel</p>
+
+    <p></p>
+
+    <div class="box">
+        <p class="text">affiche adrien frutiger</p>
+        <div class="imgCadre">
+            <img src="img/AfficheAdrienbooksmockups.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">affiche zgarf 75'</p>
+        <div class="imgCadre">
+            <img src="img/afficheZGARFmockeup.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">logo eec</p>
+        <div class="imgCadre">
+            <img src="img/bizzcardmockup.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">logo&marketing&branding / team traveler</p>
+        <div class="imgCadre">
+            <img src="img/Pteamtraveler.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">photographie / kitchen tools n°1</p>
+        <div class="imgCadre">
+            <img src="img/Pfouet.jpg">
+        </div>
+    </div>
+
+    <div class="box">
+        <p class="text">photographie / kitchen tools n°2</p>
+        <div class="imgCadre">
+            <img src="img/Pcuillere.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">photographie / archithectur diptyque</p>
+        <div class="imgCadre">
+            <img src="img/archiIMG.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">photographie / street editorial</p>
+        <div class="imgCadre">
+            <img src="img/nastimg.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">photograhpie / self portraits n°1</p>
+        <div class="imgCadre">
+            <img src="img/Pmemeselfportrait.jpg">
+        </div>
+    </div>
+
+    <div class="box">
+        <p class="text">photographie / self portraits n°2</p>
+        <div class="imgCadre">
+            <img src="img/Pselfportrait1.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">photographie / makeup packshot</p>
+        <div class="imgCadre">
+            <img src="img/Pecomercepackshot.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('dsfg5')">my illustrations animated with affter effect / the walk</p>
+        <div class="imgCadre">
+            <video id="dsfg5" loop>
+                <source src="video/thewalk.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('dsfg2')">video, green screen 3D workshop / scan us</p>
+        <div class="imgCadre">
+            <video id="dsfg2" loop>
+                <source src="video/videovirtualloop.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('dsfg3')">unity interactive game with my illustrations workshop / stretch
+            me</p>
+        <div class="imgCadre">
+            <video id="dsfg3" loop>
+                <source src="video/workshop.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('dsfg')">virtual realty / le couloir d'exposition eliasson olafur</p>
+        <div class="imgCadre">
+            <video id="dsfg" loop>
+                <source src="video/vrcouloir.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('dsfg4')">video packshoot / offwhite 'out the office'</p>
+        <div class="imgCadre">
+            <video id="dsfg4" loop>
+                <source src="video/videopackshot.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text">website design / cullyjazz festival</p>
+        <div class="imgCadre">
+            <img src="img/JazzFestiphonemockup.jpg">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('car')">website design & coding / canion</p>
+        <div class="imgCadre">
+            <video id="car" loop>
+                <source src="video/sitecannion.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <p class="text" onmouseover="playVid('archi')">website design & coding / archithectur</p>
+        <div class="imgCadre">
+            <video id="archi" loop>
+                <source src="video/archiqlq.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="boitemail">
+            <a href="mailto:ellafournel@bluewin.ch" target="blank"> @contact me </a>
+        </div>
+
+        <div class="boiteinsta">
+            <a href="https://www.instagram.com/eec.creative/"> @eec.creative </a>
+
+        </div>
+    </div>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video {
+            max-width: 50%;
+        }
+    </style>
+
+    <script>
+
+
+
+        function playVid() {
+            var vid = document.getElementById("myVideo");
+            vid.play();
+            //console.log("fraise");
+        }
+
+
+
+        function changeDef(event) {
+            // console.log(event.target);
+            //console.log("haribos");
+            playVid();
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <a href="chaton.html" onmouseover="changeDef(event)"> coucou </a>
+
+
+    <video src="video/videopackshot.mp4" id="myVideo"></video>
+
+
+</body>
+
+</html>

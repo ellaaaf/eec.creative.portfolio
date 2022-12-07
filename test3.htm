@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video {
+            max-width: 50%;
+        }
+    </style>
+
+    <script>
+
+
+
+        function playVid(laquel) {
+
+            //https://stackoverflow.com/questions/73437333/how-to-stop-all-videos-when-a-new-video-is-played
+            document.querySelectorAll("video").forEach((lesVideos) => {
+                console.log(lesVideos);
+                lesVideos.pause();
+            });
+
+
+            console.log(laquel);
+            var vid = document.getElementById(laquel);
+            vid.play();
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <a href="chaton.html" onmouseover="playVid('haribo')"> coucou </a>
+    <a href="chaton.html" onmouseover="playVid('peanut')"> bla bla </a>
+
+
+    <video src="video/videopackshot.mp4" loop id="haribo"></video>
+    <video src="video/thewalk.mp4" loop id="peanut"></video>
+
+</body>
+
+</html>
